@@ -1,0 +1,158 @@
+#page-title {
+    font-size: 70px;
+    font-family: fantasy;
+
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.info-bar{
+    background-color: rgba(53, 246, 246, 0.877);
+    color : white;
+    font-weight: 600;
+   
+}
+ol, ul {
+    padding-left: 0;
+}
+.col-3.text-left {
+    background-color: rgb(33, 163, 142);
+}
+.info-bar ul li:last-of-type{
+
+    text-align: right;
+}
+.card.bg-color-1 {
+    height: 100%;
+}
+
+
+
+.padding-20Per{
+    padding: 0 15%;
+}
+
+.no-padding-left-right {
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+[data-small] {
+    font-size: 13px;
+}
+
+
+
+.bg-color-1{
+    background-color: rgba(238, 222, 201, 0.979);
+}
+
+.side-wall-card {
+    height: 25%;
+    margin: 10px 0;
+    border: none;
+}
+
+.side-bar-page-num{
+  
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    font-weight: 700;
+    padding-left: 10%;
+    background-image: linear-gradient(to top, rgb(207, 190, 240), rgb(255, 255, 255));
+}
+
+.to-be-overlayed{
+position: relative;
+}
+
+.card-overlay {
+    position : absolute;
+    background-color : black;
+    color: white;
+    opacity: 0;
+    visibility: none;
+}
+
+
+
+.card.side-wall-card:hover .card-overlay{
+  opacity: 1;
+    
+}
+
+.card.side-wall-card:hover .row-to-be-hidden{
+    opacity: 0;
+    visibility: hidden;
+      
+  }
+
+  .card.side-wall-card:hover .to-be-overlayed{
+   background-color: black;
+      
+  }
+ 
+.position-relative{
+    position : relative
+}
+.position-absolute{
+    position : absolute;
+}
+.padding-left-right-10Per {
+    padding: 10%;
+    background-image: linear-gradient(to left, rgb(207, 190, 240), rgb(255, 255, 255));
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-padding-bottom {
+    padding-bottom: 0px;
+}
+
+.side-bar-para {
+    margin: 0;
+    
+}
+.no-padding-left{
+    padding-left: 0;
+}
+
+.btn-primary{
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+.btn-primary a{
+    text-decoration: none;
+    color : white;
+    
+
+}
+.card.side-wall-card:hover {
+    background-color: black;
+}
+/* .info-bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.info-bar ul {
+    
+    justify-content: space-evenly;
+}
+
+.info-bar ul li:first-of-type{
+    background-color : blue;
+    text-align: left;
+} */
+
+
